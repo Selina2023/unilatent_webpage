@@ -31,6 +31,8 @@
 <meta name="citation_author" content="Wang, Yue">
 <meta name="citation_conference_title" content="Conference on Robot Learning (CoRL)">
 <meta name="citation_publication_date" content="2026">
+<meta name="citation_pdf_url" content="https://arxiv.org/pdf/2611.10061">
+<meta name="citation_arxiv_id" content="2611.10061">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,15 +70,13 @@
 
     <nav class="links" aria-label="Paper links">
       <!-- Set each href and remove class "soon" once the link exists. -->
-      <a class="glass btn soon" href="#" aria-disabled="true">
+      <a class="glass btn" href="https://arxiv.org/pdf/2611.10061" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 2.75h7.25l4.75 4.75v12.25a1.5 1.5 0 0 1-1.5 1.5h-10.5a1.5 1.5 0 0 1-1.5-1.5V4.25a1.5 1.5 0 0 1 1.5-1.5Z"/><path d="M13.5 3v4.75h4.75M8.5 12.5h7M8.5 16h7"/></svg>Paper</a>
-      <a class="glass btn soon" href="#" aria-disabled="true">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 2.75h7.25l4.75 4.75v12.25a1.5 1.5 0 0 1-1.5 1.5h-10.5a1.5 1.5 0 0 1-1.5-1.5V4.25a1.5 1.5 0 0 1 1.5-1.5Z"/><path d="M12 10v7M8.5 13.5h7"/></svg>Supplement</a>
       <a class="glass btn soon" href="#" aria-disabled="true">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8.5 7-5 5 5 5M15.5 7l5 5-5 5"/></svg>Code</a>
       <a class="glass btn" href="#video">
         <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.75" y="5.25" width="18.5" height="13.5" rx="3.5"/><path d="M10 9.25v5.5L14.75 12Z" class="fill"/></svg>Video</a>
-      <a class="glass btn soon" href="#" aria-disabled="true">
+      <a class="glass btn" href="#cite">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5h10v15.25l-5-3.5-5 3.5Z"/></svg>BibTeX</a>
     </nav>
 
@@ -669,7 +669,18 @@
         <p class="kicker">Citation</p>
         <h2>BibTeX</h2>
       </div>
-      <p class="bib tbd glass panel reveal">Coming soon. The BibTeX entry will be posted here once the paper is on arXiv.</p>
+      <div class="bib glass panel reveal">
+        <button type="button" class="copy" data-copy="#bibText">Copy</button>
+        <pre><code id="bibText">@inproceedings{ding2026unilatent,
+  title         = {UniLatent: Cross-Embodiment Transfer via Latent Observation Alignment},
+  author        = {Ding, Yufei and Du, Yi and Yuan, Weiduo and Jiang, Hao and
+                   Goetting, Dylan and Chen, Lawrence Yunliang and Seita, Daniel and Wang, Yue},
+  booktitle     = {Conference on Robot Learning (CoRL)},
+  year          = {2026},
+  eprint        = {2611.10061},
+  archivePrefix = {arXiv}
+}</code></pre>
+      </div>
     </div>
 
     <footer class="foot">
