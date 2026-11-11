@@ -81,7 +81,7 @@
     </nav>
 
     <p class="tldr glass panel"><b>TL;DR</b>
-      A vision policy trained on one robot fails on another, because the arm it sees in the image has changed.
+      Robot demonstrations are costly to collect and concentrated on a few popular arms, and a vision policy trained on one robot often transfers poorly to another, in large part because the robot in the image looks different.
       UniLatent closes this gap in the policy&rsquo;s feature space instead of in pixels. It trains the source robot&rsquo;s image encoder
       to produce the features that a frozen encoder gives the target robot in the same pose, using paired renderings from
       simulation. Source demonstrations encoded this way look to the policy as if they came from the target robot, so the policy runs
